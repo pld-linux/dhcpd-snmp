@@ -1,3 +1,5 @@
+# TODO
+# - use perl autodeps
 Summary:	Net-SNMP extension for monitoring ISC DHCP server.
 Name:		dhcpd-snmp
 Version:	0.2
