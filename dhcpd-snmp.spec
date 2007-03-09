@@ -1,6 +1,7 @@
 # TODO
 # - use perl autodeps
-Summary:	Net-SNMP extension for monitoring ISC DHCP server.
+Summary:	Net-SNMP extension for monitoring ISC DHCP server
+Summary(pl.UTF-8):	Rozszerzenie Net-SNMP do monitorowania serwera ISC DHCP
 Name:		dhcpd-snmp
 Version:	0.2
 Release:	0.1
@@ -22,6 +23,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 dhcpd-snmp is an extension for the Net-SNMP agent and the ISC DHCP
 server. It allows you to monitor and track the address usage of your
 dynamic IP address pools through SNMP.
+
+%description -l pl.UTF-8
+dhcpd-snmp to rozszerzenie dla agenta Net-SNMP i serwera ISC DHCP.
+Pozwala na monitorowanie i śledzenie wykorzystania adresów z puli
+dynamicznych adresów IP poprzez SNMP.
 
 %prep
 %setup -q
